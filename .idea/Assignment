@@ -1,0 +1,39 @@
+Requirements Specification for Webshop
+Business Description
+TechGear is an online shop that sells electronics and tech gadgets. They need a simple
+database system to manage their sales. Your task is to design a basic
+database structure that meets their needs.
+Business requirements
+Product management
+● The store sells products such as phones, computers and accessories
+● Each product has a name, description, price and stock balance
+● Products should be divided into categories (e.g. Mobiles, Computers, Accessories)
+● Each product has a manufacturer (e.g. Apple, Samsung, Dell)
+● It should be possible to see which products are in each category
+● It should be possible to list all products from a certain manufacturer
+Customer management
+● Customers should be able to register on the website
+● The system needs to save the customer's name, email, phone number and delivery address
+● Customers should be able to see their previous orders
+● Customers should be able to leave reviews on products (rating 1-5 and comment)
+● It should be possible to see all reviews for a product
+Sales
+● An order can contain several different products
+● For each product in the order, the quantity and price should be saved
+● Each order should have an order date and delivery address
+● Orders can have different statuses (e.g. New, Confirmed, Sent, Delivered)
+● It should be possible to see all orders for a customer
+● Customers should be able to choose between different delivery methods (Postnord, DHL, Schenker)
+Your task
+1. Create an ER model that meets the business requirements
+2. Determine which tables are needed (one box per table)
+3. Identify appropriate columns for each entity (each box should have information about
+all columns and what data type it has and what constraints it has)
+4. Define the relationships between the tables (show with the right kind of arrow what kind of relationship
+the tables have)
+Remember to:
+● English names for tables and columns
+● Normalize
+● Think about how the data is related
+● Keep the design simple but functional (Do not add columns that are not needed)
+● Avoid unnecessary duplication of data
